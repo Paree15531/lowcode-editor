@@ -5,7 +5,7 @@ import { Component, useComponetsStore } from "../../stores/components";
 export function Preview() {
   const { components } = useComponetsStore();
   const { componentConfig } = useComponentConfigStore();
-
+  //处理方法事件函数
   function handleEvent(component: Component) {
     const props: Record<string, any> = {};
     componentConfig[component.name].events?.forEach((event) => {
