@@ -9,7 +9,7 @@ import { useComponetsStore } from "./stores/components";
 
 export default function Editor() {
   const { mode } = useComponetsStore();
-
+  //这是测试文本
   return (
     <div className="h-screen flex flex-col">
       <div className="h-[60px] flex items-center border-b-[1px] border-[#000]">
